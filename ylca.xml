@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ylca>
+    <UPLOADADDR UpLoadUrl="172.16.23.196:9001" />
+    <BCR1IP BCR1IP="172.16.25.234" />
+    <BCR2IP BCR2IP="172.16.25.235" />
+    <BCR3IP BCR3IP="172.16.25.237" />
+    <BNNUM BNNUM="9" />
+    <BAARNUM BAARNUM="1" />
+    <BSDRNUM BSDRNUM="5" /> 
+    <BCRNUM BCRNUM="3" />  
+    <DISKROUTE DISKROUTE="/" />  
+	<LOGGER  Switch2Console="0" />
+	<NAMEPUB ReExpressTimer="2" />
+	<CIPHERS SwitcherNo="1" />
+	<CONSUMER ThreadNumber="10" LinkNumber="20" PoolSize="20" Increment="5" />	
+	<INSTANCE>
+		<name instance="BSDR1system"/>
+	    <name instance="BSDR2system"/>
+	    <name instance="BSDR3system"/>
+	    <name instance="BSDR4system"/>
+	    <name instance="BSDR5system"/>
+	    <name instance="BCR1system"/>
+	    <name instance="BCR2system"/>
+	    <name instance="BCR3system"/>
+	    <name instance="FBAARsystem"/>		
+	</INSTANCE>
+</ylca>

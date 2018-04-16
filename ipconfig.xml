@@ -1,0 +1,5 @@
+<?xml version="1.0" ?> 
+<bsdrlist count="2">
+  <bsdr ip="172.16.21.70" /> 
+  <bsdr ip="172.16.23.236" /> 
+</bsdrlist>
